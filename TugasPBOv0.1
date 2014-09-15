@@ -1,0 +1,33 @@
+/**
+ * thx to Allah,R5A,GIThub
+ * Tugas Pemrogrman Berorintasi Objek
+ * @author (Azwar Annas Azuhri) 
+ * @version (version 0.1 Beta)
+ * Silahkan Download, Copas buat teman-teman R5A :D
+ * Bila kurang mengerti dapat langsung ngobrol bareng dengan saya
+ */
+public class buku{
+    /**
+     * indentifier
+     * digunakan sebagai penentu tipe data & isi variable
+     */
+    String namaBuku="Pemrograman Java",nmaPngarang="Benyamin S",nmaPenerbit="Yudistira";
+        int hrgBuku=50000,thnBuku=1992;
+     /**
+      * method cetak digunakan sebagai pencetak di layar
+      */
+    public void cetak(){
+        System.out.println("Nama Buku       = "+namaBuku);
+        System.out.println("Nama Pengarang  = "+nmaPngarang);
+        System.out.println("Nama Penerbit   = "+nmaPenerbit);
+        System.out.println("Harga Buku      = "+hrgBuku);
+        System.out.println("tahun Penerbit  = "+thnBuku);
+    }
+    /**
+     * Main utama program digunakan sebagai inti program
+     */
+    public static void main(String [] args){
+        buku baru = new buku();
+        baru.cetak();
+    }   
+}
